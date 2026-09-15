@@ -34,3 +34,19 @@ header {
     text-decoration: none;
     border-radius: 6px;
 }
+.brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.brand strong {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.brand span {
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-top: 6px;
+}
