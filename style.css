@@ -6,3 +6,11 @@ body {
     background-color: #f5f7f8;
 color: #172126;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #172126;
+    color: white;
+}
