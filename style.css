@@ -26,3 +26,10 @@ header {
     max-width: 850px;
     line-height: 1.6;
 }
+.hero a {
+    display: inline-block;
+    padding: 14px 24px;
+    background-color: #172126;
+    color: white;
+    text-decoration: none;
+}
