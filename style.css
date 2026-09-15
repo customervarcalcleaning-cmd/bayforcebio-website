@@ -14,3 +14,7 @@ header {
     background-color: #172126;
     color: white;
 }
+
+.hero {
+    padding: 80px 30px;
+}
