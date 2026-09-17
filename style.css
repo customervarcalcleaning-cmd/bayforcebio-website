@@ -86,12 +86,15 @@ color: #172126;
 }
 
 .hero-content {
-    width: 52%;
+    flex: 1;
+    min-width: 0;
 }
 
 .hero-image {
-    width: 48%;
+    flex: 1;
+    min-width: 0;
 }
+
 
 .hero-label {
     font-size: 13px;
