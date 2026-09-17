@@ -136,3 +136,19 @@ color: #172126;
     border-radius: 8px;
     display: block;
 }
+/* HERO FINAL ADJUSTMENTS */
+
+.hero {
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+
+.hero-button {
+    background-color: #4f9f38 !important;
+    transition: 0.2s ease;
+}
+
+.hero-button:hover {
+    background-color: #3f842d !important;
+    transform: translateY(-2px);
+}
