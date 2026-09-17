@@ -74,3 +74,58 @@ color: #172126;
 .brand-services strong {
     display: block;
 }
+/* HERO SECTION */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px 30px;
+    min-height: 420px;
+}
+
+.hero-content {
+    width: 52%;
+}
+
+.hero-image {
+    width: 48%;
+}
+
+.hero-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #4f9f38;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.05;
+    margin: 0 0 25px 0;
+    max-width: 650px;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 15px 26px;
+    background-color: #4f9f38;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.hero-trust {
+    margin-top: 22px;
+    font-size: 14px;
+    font-weight: bold;
+}
