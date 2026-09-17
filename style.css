@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 40px;
+    padding: 0;
     
     font-family: Arial, sans-serif;
     background-color: #f5f7f8;
@@ -212,4 +212,21 @@ color: #172126;
     margin: 0;
     line-height: 1.6;
     color: #455057;
+}
+/* PAGE SECTION LAYOUT FIX */
+
+header,
+.hero,
+.services {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero,
+.services {
+    clear: both;
+}
+
+.services {
+    display: block;
 }
