@@ -388,3 +388,79 @@ header nav {
         padding: 24px;
     }
 }
+/* =========================
+   WHY BAY FORCE
+   ========================= */
+
+.why-bayforce {
+    width: 100%;
+    padding: 85px 40px;
+    background-color: #172126;
+    color: #ffffff;
+}
+
+.why-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.why-bayforce .section-label {
+    text-align: left;
+    color: #65b847;
+}
+
+.why-bayforce h2 {
+    max-width: 750px;
+    margin: 0 0 20px;
+    font-size: 38px;
+    line-height: 1.15;
+}
+
+.why-intro {
+    max-width: 850px;
+    margin: 0 0 45px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #d9e0e2;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.why-item {
+    padding: 28px;
+    border: 1px solid #405057;
+    border-radius: 6px;
+}
+
+.why-item h3 {
+    margin: 0 0 12px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.why-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: #d9e0e2;
+}
+
+/* Why Bay Force - mobile */
+
+@media (max-width: 800px) {
+
+    .why-bayforce {
+        padding: 60px 22px;
+    }
+
+    .why-bayforce h2 {
+        font-size: 32px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
