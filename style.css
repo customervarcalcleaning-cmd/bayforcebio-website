@@ -654,3 +654,32 @@ footer {
         text-align: center;
     }
 }
+/* HEADER NAVIGATION */
+
+header nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav a {
+    color: #172126;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #4f9f38;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 800px) {
+    header nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+    }
+}
