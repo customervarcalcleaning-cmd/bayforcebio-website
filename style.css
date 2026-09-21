@@ -739,3 +739,87 @@ footer {
         line-height: 2;
     }
 }
+/* =========================
+   ESTIMATE FORM
+   ========================= */
+
+.estimate-form {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: #f5f7f8;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-field {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #172126;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 14px;
+    border: 1px solid #cbd3d7;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #172126;
+}
+
+.form-field textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+    outline: none;
+    border-color: #4f9f38;
+}
+
+.form-submit {
+    width: 100%;
+    padding: 15px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f9f38;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #3f842d;
+}
+
+@media (max-width: 800px) {
+
+    .estimate-form {
+        padding: 25px 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
