@@ -218,7 +218,57 @@
             Tell us about the situation. Our team can help determine the
             appropriate next step and provide an estimate for your property.
         </p>
+        <form class="estimate-form">
 
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="city">Property City *</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+            </div>
+
+            <div class="form-field">
+                <label for="service">What type of service do you need? *</label>
+
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option>Hoarding Cleanup</option>
+                    <option>Rodent Contamination Cleanup</option>
+                    <option>Animal Waste Cleanup</option>
+                    <option>Attic & Crawlspace Cleanup</option>
+                    <option>Severe Odor Treatment</option>
+                    <option>Extreme Property Cleaning</option>
+                    <option>Other Specialty Cleaning</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="message">Tell us about the property or situation *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">
+                Request an Estimate
+            </button>
+
+        </form>
         <div class="contact-buttons">
             <a href="tel:7073326075" class="cta-primary">Call (707) 332-6075</a>
 
