@@ -835,16 +835,14 @@ footer {
     }
 
     .brand-services {
-        font-size: 16px;
+    font-size: 18px;
         line-height: 1.35;
     }
 
-    header nav {
-        gap: 28px;
-    }
+  
 
     header nav a {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
     }
 
