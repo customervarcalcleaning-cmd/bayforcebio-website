@@ -823,3 +823,33 @@ footer {
         gap: 0;
     }
 }
+/* =========================
+   DESKTOP HEADER SIZE
+   ========================= */
+
+@media (min-width: 1000px) {
+
+    .brand img {
+        width: 430px;
+        max-width: none;
+    }
+
+    .brand-services {
+        font-size: 16px;
+        line-height: 1.35;
+    }
+
+    header nav {
+        gap: 28px;
+    }
+
+    header nav a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    header {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+}
