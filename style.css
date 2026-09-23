@@ -1084,3 +1084,43 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+/* =========================
+   HOARDING PAGE FINAL LAYOUT
+   ========================= */
+
+.service-detail-container {
+    width: 88%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-includes,
+.service-process,
+.service-area-page,
+.service-page-cta {
+    padding: 70px 6%;
+}
+
+.service-feature-grid,
+.service-process-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+
+    .service-detail-container {
+        width: 100%;
+    }
+
+    .service-includes,
+    .service-process,
+    .service-area-page,
+    .service-page-cta {
+        padding: 50px 20px;
+    }
+}
