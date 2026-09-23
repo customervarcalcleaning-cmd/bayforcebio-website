@@ -1308,3 +1308,62 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* =====================================
+   HOARDING PAGE SPACING REFINEMENT
+   ===================================== */
+
+.service-page-hero {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.service-detail-section {
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+
+.service-includes {
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.service-process {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.service-area-page {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.service-page-cta {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+/* Prevent old section rules from creating large empty areas */
+.service-detail-section .service-detail-container,
+.service-includes .service-detail-container,
+.service-process .service-detail-container,
+.service-area-page .service-detail-container {
+    min-height: 0;
+}
+
+/* Consistent spacing around labels */
+.service-detail-container .section-label {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+/* Feature cards */
+.service-feature-grid {
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+/* Process cards */
+.service-process-grid {
+    margin-top: 28px;
+    margin-bottom: 0;
+}
