@@ -1367,3 +1367,50 @@ footer {
     margin-top: 28px;
     margin-bottom: 0;
 }
+/* =====================================
+   HOARDING HERO WITH IMAGE
+   ===================================== */
+
+.service-page-hero-inner {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    align-items: center;
+}
+
+.service-page-hero-inner .service-page-content {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
+.service-page-hero-image {
+    width: 100%;
+}
+
+.service-page-hero-image img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+
+    .service-page-hero-inner {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .service-page-hero-image img {
+        height: 280px;
+    }
+}
