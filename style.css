@@ -1414,3 +1414,17 @@ footer {
         height: 280px;
     }
 }
+/* =========================
+   FOOTER ALIGNMENT FIX
+   ========================= */
+
+footer {
+    width: 100%;
+}
+
+footer .footer-container {
+    width: 88%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
