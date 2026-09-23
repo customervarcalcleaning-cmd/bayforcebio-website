@@ -1124,3 +1124,187 @@ footer {
         padding: 50px 20px;
     }
 }
+/* =====================================
+   HOARDING PAGE PROFESSIONAL DESIGN
+   ===================================== */
+
+/* General section spacing */
+.service-page-hero,
+.service-detail-section,
+.service-includes,
+.service-process,
+.service-area-page,
+.service-page-cta {
+    padding: 60px 6%;
+}
+
+/* Main content width */
+.service-page-content,
+.service-detail-container {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Remove excessive empty space */
+.service-page-hero {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.service-detail-section,
+.service-includes,
+.service-process,
+.service-area-page {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+/* Section labels */
+.service-page-hero .section-label,
+.service-detail-container .section-label {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+/* Main hero */
+.service-page-content h1 {
+    font-size: 38px;
+    line-height: 1.15;
+    margin: 0 0 20px;
+}
+
+.service-page-intro {
+    max-width: 950px;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+/* Section headings */
+.service-detail-container h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 22px;
+}
+
+.service-detail-container > p {
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 1000px;
+}
+
+/* WHAT WE INCLUDE - cards */
+.service-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.service-feature {
+    background: #ffffff;
+    border: 1px solid #e2e7e9;
+    border-radius: 10px;
+    padding: 26px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+}
+
+.service-feature h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+    color: #172126;
+}
+
+.service-feature p {
+    margin: 0;
+    line-height: 1.55;
+}
+
+/* BAY FORCE PROCESS - four cards */
+.service-process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.process-step {
+    background: #ffffff;
+    border: 1px solid #e2e7e9;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+}
+
+.process-step span {
+    display: block;
+    color: #52a83f;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.process-step h3 {
+    margin: 0 0 10px;
+    font-size: 19px;
+}
+
+.process-step p {
+    margin: 0;
+    line-height: 1.55;
+}
+
+/* Service area */
+.service-area-page {
+    background: #ffffff;
+}
+
+/* Bottom CTA */
+.service-page-cta {
+    background: #f5f7f8;
+    text-align: center;
+}
+
+.service-page-cta .service-detail-container {
+    max-width: 900px;
+}
+
+.service-page-cta .section-label {
+    text-align: center;
+}
+
+.service-cta-buttons {
+    margin-top: 25px;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+
+    .service-page-hero,
+    .service-detail-section,
+    .service-includes,
+    .service-process,
+    .service-area-page,
+    .service-page-cta {
+        padding: 45px 20px;
+    }
+
+    .service-page-content,
+    .service-detail-container {
+        width: 100%;
+    }
+
+    .service-page-content h1 {
+        font-size: 32px;
+    }
+
+    .service-detail-container h2 {
+        font-size: 26px;
+    }
+
+    .service-feature-grid,
+    .service-process-grid {
+        grid-template-columns: 1fr;
+    }
+}
