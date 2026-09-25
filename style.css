@@ -1524,3 +1524,44 @@ header nav a {
         flex-wrap: wrap;
     }
 }
+/* SERVICE PAGE HERO - TEXT LEFT / IMAGE RIGHT */
+
+.service-page-hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    align-items: center;
+}
+
+.service-page-hero-text {
+    min-width: 0;
+}
+
+.service-page-hero-image {
+    width: 100%;
+}
+
+.service-page-hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .service-page-hero-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .service-page-hero-image {
+        width: 100%;
+    }
+
+    .service-page-hero-image img {
+        width: 100%;
+        height: auto;
+    }
+}
