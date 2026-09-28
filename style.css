@@ -1463,7 +1463,7 @@ footer .footer-container {
 }
 
 /* Keep full Bay Force header layout on service pages */
-header .header-container {
+header .header-inner {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
@@ -1503,11 +1503,12 @@ header nav a {
 }
 
 @media (max-width: 1000px) {
-    header .header-container {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
-    }
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
     header .brand {
         flex-wrap: wrap;
