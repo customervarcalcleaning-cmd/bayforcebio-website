@@ -389,6 +389,14 @@ form.addEventListener("submit", async function(event) {
         });
 
         if (response.ok) {
+      
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18483813736/EUc2CN-muY0dEOi64u1E',
+      'value': 1.0,
+      'currency': 'USD'
+  });
+
+
             form.reset();
             form.style.display = "none";
             successMessage.style.display = "block";
