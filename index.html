@@ -324,20 +324,34 @@ Mill Valley, Sausalito, Tiburon, Napa, and surrounding communities.
             </button>
 
         </form>
-        <div id="form-success" class="form-success" style="display: none;">
-    <strong>Thank you! Your request has been received.</strong>
-    <p>Our Bay Force team will review your information and contact you as soon as possible.</p>
+        <div id="form-success"
+     class="form-success"
+     role="status"
+     aria-live="polite"
+     tabindex="-1"
+     style="display:none; padding:32px; margin-top:24px; text-align:center; border:2px solid #4da934; border-radius:12px; background:#f4fbf1;">
+
+    <div style="font-size:42px; margin-bottom:10px;">✓</div>
+
+    <h3 style="margin-bottom:12px;">Thank You! Your Request Has Been Received.</h3>
+
+    <p style="font-size:17px; margin-bottom:8px;">
+        A Bay Force Bio Cleaning specialist will review your information and contact you as soon as possible.
+    </p>
+
+    <p style="margin-bottom:22px;">
+        For immediate assistance, please call us directly.
+    </p>
+
+    <div class="contact-buttons">
+        <a href="tel:17073326075" class="cta-primary">Call (707) 332-6075</a>
+        <a href="mailto:bayforcebio@gmail.com" class="cta-secondary">Email Bay Force</a>
+    </div>
 </div>
-        <div class="contact-buttons">
-            <a href="tel:7073326075" class="cta-primary">Call (707) 332-6075</a>
 
-         <a href="mailto:bayforcebio@gmail.com"
-   class="cta-secondary">Email Bay Force</a>
-        </div>
-
-        <p class="contact-trust">
-            Specialized Cleaning • Insured • Professional Equipment • A VarCal Company
-        </p>
+<p class="contact-trust">
+    Specialized Cleaning • Insured • Professional Equipment • A VarCal Company
+</p>
 
     </div>
 
@@ -398,8 +412,19 @@ form.addEventListener("submit", async function(event) {
 
 
             form.reset();
-            form.style.display = "none";
-            successMessage.style.display = "block";
+form.style.display = "none";
+successMessage.style.display = "block";
+
+setTimeout(() => {
+    successMessage.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+
+    successMessage.focus({
+        preventScroll: true
+    });
+}, 150);
         } else {
             alert("There was a problem sending your request. Please try again or call us at (707) 332-6075.");
             submitButton.disabled = false;
