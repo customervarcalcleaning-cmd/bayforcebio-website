@@ -238,13 +238,16 @@ header nav {
     }
 
     .brand img {
-        width: 300px;
-    }
+    width: 240px;
+}
+    
 
     .brand-services {
-        font-size: 14px;
-        padding-left: 18px;
-    }
+    font-size: 12px;
+    line-height: 1.25;
+    padding-left: 12px;
+}
+
 
     header nav {
         font-size: 14px;
