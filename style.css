@@ -115,20 +115,21 @@ header nav {
 .hero-description {
     max-width: 700px;
     margin: 0 0 28px;
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 21px;
+    line-height: 1.7;
 }
 
 .hero-button {
     display: inline-block;
-    padding: 15px 26px;
+    padding: 18px 32px;
 
     background-color: #4f9f38;
     color: #ffffff;
 
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+   font-size: 18px;
+    border-radius: 8px;
 
     transition: 0.2s ease;
 }
@@ -140,7 +141,7 @@ header nav {
 
 .hero-trust {
     margin: 22px 0 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 1.5;
 }
