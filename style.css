@@ -235,9 +235,10 @@ header nav {
 
     header {
     padding: 20px;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    row-gap: 14px;
 }
 
     .brand img {
