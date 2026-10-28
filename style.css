@@ -77,23 +77,23 @@ header nav {
 .hero {
     width: 100%;
     min-height: 520px;
-    padding: 55px 40px 70px;
+    padding: 55px 24px 70px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .hero-content {
     flex: 1;
-    max-width: 720px;
+    max-width: 820px;
     min-width: 0;
 }
 
 .hero-image {
     flex: 1;
-    max-width: 720px;
+    max-width: 820px;
     min-width: 0;
 }
 
