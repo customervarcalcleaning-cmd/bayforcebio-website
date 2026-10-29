@@ -1668,3 +1668,85 @@ header nav a {
         display: block !important;
     }
 }
+/* ===== FINAL MOBILE/TABLET SERVICE FIX ===== */
+@media screen and (max-width: 1366px) {
+
+    .service-page-hero {
+        width: 100% !important;
+        padding: 40px 20px !important;
+        overflow: visible !important;
+    }
+
+    .service-page-hero-inner {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 30px !important;
+    }
+
+    .service-page-hero-text {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+    }
+
+    .service-page-hero-text h1 {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 36px !important;
+        line-height: 1.12 !important;
+    }
+
+    .service-page-hero-text > p:not(.section-label) {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 18px !important;
+        line-height: 1.55 !important;
+    }
+
+    .service-page-hero-image {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .service-page-hero-image img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
+    .service-cta-buttons {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 12px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .service-page-hero {
+        padding: 30px 18px !important;
+    }
+
+    .service-page-hero-text h1 {
+        font-size: 32px !important;
+    }
+
+    .service-page-hero-text > p:not(.section-label) {
+        font-size: 17px !important;
+    }
+
+    .service-cta-buttons a {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
