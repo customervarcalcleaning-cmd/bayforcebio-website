@@ -1633,3 +1633,38 @@ header nav a {
         font-size: 14px !important;
     }
 }
+/* ===== SERVICE PAGE TABLET / MOBILE FIX ===== */
+@media (max-width: 1366px) {
+
+    .service-page-hero-inner {
+        width: 92% !important;
+        max-width: 1200px !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .service-page-hero-content {
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+    }
+
+    .service-page-hero-text {
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0 !important;
+    }
+
+    .service-page-hero-image {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .service-page-hero-image img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+}
